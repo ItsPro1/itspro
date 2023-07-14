@@ -1,0 +1,136 @@
+.boxad {
+    display: block;
+    float: right;
+    padding: var(--padding);
+    padding-top: 0;
+    
+}
+
+.boxad>* {
+    margin-bottom: var(--padding);
+    text-align: center;
+    background-color: #1a1918;
+    border-radius: 4px;
+}
+
+.boxad>a {
+    padding: 14px var(--padding)
+}
+
+.releases-header {
+    text-align: center
+}
+
+.releases {
+    margin-top: -5px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+}
+
+.downloadOption {
+    max-width: 380px;
+    width: 100%;
+    height: 200px;
+    padding: 8px;
+    margin: 5px;
+    vertical-align: top;
+    position: relative;
+    transition: all .1s ease-in-out;
+    display: inline-flex;
+    flex-direction: column;
+    overflow: hidden
+}
+
+.downloadOption:hover {
+    transform: scale(1.02)
+}
+
+.downloadOption div:nth-child(1) {
+    flex: 1
+}
+
+.thumbnail {
+    border-radius: 4px;
+    float: left;
+    margin: 0 8px 0 0;
+    position: relative;
+    overflow: hidden;
+    height: 145px;
+    width: 145px
+}
+
+.thumbnail img {
+    height: 100%;
+    width: 100%
+}
+
+.downloadTitle {
+    font-size: 16px;
+    position: absolute;
+    text-align: center;
+    background-color: rgba(255,255,255,0.5);
+    color: #ecf0f1;
+    width: 100%;
+    padding: 2px 0;
+    bottom: 0
+}
+
+.description {
+    word-wrap: break-word;
+    line-height: 1.3;
+    height: 145px;
+    overflow: hidden;
+    color: white;
+}
+
+.title {
+    line-height: 1.3;
+    height: 145px;
+    color: black;
+}
+
+.release-card-button {
+    margin-top: -8px;
+    margin-left: 3px;
+    padding: 4px 12px;
+    border-radius: 4px;
+    background-color: #48ff47;
+    color: #fff;
+    transition: 0.5s;
+}
+.subscribe-card-button {
+    margin-top: -8px;
+    margin-left: 3px;
+    padding: 4px 12px;
+    border-radius: 10px;
+    background-color: #ff4747;
+    color: #fff;
+    transition: 0.5s;
+}
+.subscribe-card-button:hover{
+    background-color: #ff5b45;
+}
+.release-card-button:hover{
+    background-color: #9eff69;
+}
+
+.release-card-button p {
+    font-weight: 400
+}
+
+.download_metadata {
+    display: flex;
+    justify-content: flex-end
+}
+
+.download_metadata>div {
+    flex: 1
+}
+
+.download_metadata>div>p {
+    color: white;
+    text-align: left;
+    display: flex;
+    align-items: center
+}
